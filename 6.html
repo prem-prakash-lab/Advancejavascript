@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6 spread operator</title>
+    <script>
+
+        // function sum(name,...args){
+        //     document.write(`hello ${name}:`)
+        //     let sum=0;
+        //     for(let i in args){
+        //         sum+=args[i];
+        //     }
+        //     document.write(sum+"<br>");
+        // }
+        // sum("prem prakash",20,30,40);
+        // sum("ram kumar",20,30,40);
+
+
+        // function sum(name,...args){
+        //     document.write(`hello ${name}:`)
+        //     let sum=0;
+        //     for(let i in args){
+        //         sum+=args[i];
+        //     }
+        //     document.write(sum+"<br>");
+        // }
+        // var arr=[20,30,40]
+        // sum("prem prakash",arr);
+
+
+        // function sum(name,...args){
+        //     document.write(`hello ${name}:`)
+        //     let sum=0;
+        //     for(let i in args){
+        //         sum+=args[i];
+        //     }
+        //     document.write(sum+"<br>");
+        // }
+        // var arr=[20,30,40]
+        // sum("prem prakash",...arr);
+
+
+        // var arr=[20,30,40,50];
+        // console.log(...arr);
+        // console.log([...arr]);
+
+        // var arr2=arr;
+        // var arr2=[...arr];
+        // arr.push(50);
+        // console.log(arr2);
+
+        // var arr2=[50,60,70];
+
+        // var arr3=arr.concat(arr2);
+        // var arr3=[...arr,...arr2];
+        // var arr3=[5,...arr2,...arr];
+
+        // console.log(arr3);
+
+
+        var obj1={
+            name:"prem prakash"
+        };
+
+        var obj2={
+            age : 25
+        };
+
+        var obj3={...obj1,...obj2};
+        console.log(obj3);
+
+
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
