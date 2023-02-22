@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 oops</title>
+    <script>
+     
+
+        // class hello{
+        //     message(){
+        //         console.log("hello everyone");
+        //     }
+        //     sorry(){
+        //         console.log("sorry everyone");
+        //     }
+        // }
+        // let a=new hello();
+        // a.message();
+        // a.sorry();
+
+
+        // class student{
+        //     constructor(){
+        //         console.log("constructor");
+        //     }
+           
+        // }
+        // let a=new student();
+        // let b=new student();
+
+
+        // class student{
+        //     constructor(){
+        //         let name;
+        //         console.log("constructor");
+        //     }
+        //    hello(){
+        //     console.log("hello"+this.name);
+        //    }
+        // }
+        // let a=new student();
+        // a.name="prem prakash";
+        // a.hello();
+
+
+        // class student{
+        //     constructor(name){
+        //         this.studentname= name;
+        //         console.log("constructor function");
+        //     }
+        //    hello(){
+        //     console.log("hello "+this.studentname);
+        //    }
+        // }
+        // let a=new student("prem prakash");
+        // a.hello();
+
+
+        // class student{
+        //     constructor(name,age){
+        //         this.studentname= name;
+        //         this.studentage= age;
+        //         console.log("constructor function");
+        //     }
+        //    hello(){
+        //     console.log("hello "+this.studentname+"your age is"+this.studentage);
+        //    }
+        // }
+        // let a=new student("prem prakash",23);
+        // a.hello();
+
+
+        // class student{
+        //     constructor(name,age){
+        //         this.studentname= name;
+        //         this.studentage= age;
+        //         console.log("constructor function");
+        //     }
+        //    hello(){
+        //     console.log("hello "+this.studentname+"your age is"+this.studentage);
+        //    }
+        // }
+        // let a=new student("prem prakash",23);
+        // let b=new student("praveen kumar",21);
+        // a.hello();
+        // b.hello();
+
+
+        class student{
+            constructor(name,age){
+                this.studentname= name;
+                this.studentage= age;
+                console.log("constructor function");
+            }
+           hello(){
+            console.log("hello "+this.studentname+"your age is"+this.studentage);
+           }
+           static staticmethod(){
+            console.log("static function");
+           }
+        }
+        let a=new student("prem prakash",23);
+        let b=new student("praveen kumar",21);
+        a.hello();
+        b.hello();
+        student.staticmethod();
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
